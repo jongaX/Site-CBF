@@ -1,0 +1,13 @@
+
+.fotoetexto{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    font-size: 25px;
+}
+body{
+    background-color: gold;
+}
+#escalacao{
+    margin-top: 150px;
+}
