@@ -11,3 +11,31 @@ body{
 #escalacao{
     margin-top: 150px;
 }
+#escalacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.escalacao .jogadores{
+    display: flex;
+    align-items: center;
+    background-color: green;
+    border: 10px solid blue;
+    justify-content: center;
+    height: 500px;
+    gap: 15px;
+    margin: 35px;
+}
+.textogm{
+    margin-left: 15px;
+}
+.escalacao p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.posicao{
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 450px;
+}
