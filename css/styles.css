@@ -38,4 +38,8 @@ body{
     position: absolute;
     margin-top: 0;
     margin-bottom: 450px;
+    font-size: 30px !important;
+    background-color: gold;
+    border-radius: 15px;
+    padding: 2px;
 }
