@@ -6,7 +6,7 @@
     font-size: 25px;
 }
 body{
-    background-color: gold;
+    background: linear-gradient(to top, green, gold);
 }
 #escalacao{
     margin-top: 150px;
@@ -42,4 +42,28 @@ body{
     background-color: gold;
     border-radius: 15px;
     padding: 2px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background:linear-gradient(to bottom, aliceblue 50%, blue);
+    border: 10px solid blue;
+    justify-content: center;
+    height: 50px;
+    width: 550px;
+    gap: 15px;
+    margin: 35px;
+}
+#proxjogos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.jogos {
+    display: flex;      
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
 }
