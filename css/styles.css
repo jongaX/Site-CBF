@@ -67,3 +67,49 @@ body{
     justify-content: center;
     gap: 20px;
 }
+#formulario{
+    display: flex;
+    justify-content: center;
+    max-width: 950px;
+    margin: 40px auto;
+    padding: 15px;
+}
+button{
+    color: blue;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3 ease, transform 0.2 ease;
+}
+button:hover{
+    background-color: gold;
+    transform: scale(1.05);
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border: 3px solid blue;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+.legenda{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menudenavegacao ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    margin-top: 10px;
+}
