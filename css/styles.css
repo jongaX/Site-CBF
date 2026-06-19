@@ -119,4 +119,18 @@ fieldset{
     color: green;
     text-decoration: none;
 }
-
+.menudenavegacao a:hover{
+    background-color: blue;
+    border-radius: 5px 5px 5px 5px;
+    transform: scale(1.05);
+    margin: 3px;
+    padding: 3px;
+    color: aliceblue;
+    border: 2px solid snow;
+}
+.menudenavegacao a:hover{
+    transition: all 0.2s ease-in-out;
+}
+.menudenavegacao a:hover{
+        transform: scale(1.35);
+}
