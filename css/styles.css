@@ -48,12 +48,12 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background:linear-gradient(to bottom, aliceblue 50%, blue);
+    background:linear-gradient(to bottom, aliceblue 60%, blue);
     border: 10px solid blue;
     justify-content: center;
     height: 50px;
     width: 550px;
-    gap: 15px;
+    gap: 10px;
     margin: 35px;
 }
 #proxjogos{
